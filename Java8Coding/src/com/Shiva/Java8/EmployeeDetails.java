@@ -102,7 +102,7 @@ public class EmployeeDetails {
 		System.out.println("Minimun Salary Of Each Department : " + minSalaryEmpInEachDep(employeeList));
 		System.out.println("Sum Of Age Of All Genders From Department : " + sumOfAge(employeeList));
 		System.out.println("Average Of Age Of All Genders From Department : " + avgOfAge(employeeList));
-		System.out.println("Average Salary Of All Departments : " + avgSalaryOfEachDep(employeeList));
+		System.out.println("Average Salary Of All Departments : " + avgOfDepBasedOnSalary(employeeList));
 	}
 
 	private static Map<String, Long> genderCount(List<Employee> employeeList) {
